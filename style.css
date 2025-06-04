@@ -1,0 +1,15 @@
+body {background-color: #171717; font-size: 18px; font-family:'Courier New', Courier, monospace, cursive;}
+.tarjetapostal {background: white; width: 600px; height: 500px; margin: auto;
+position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); padding: 15px;}
+.tarjetapostal-header{overflow: hidden;}
+.tarjetapostal-header img{max-width: 60px; float: right;} 
+.tarjetapostal-body{overflow: hidden;}
+input{font-size: 18px;font-family:'Courier New', Courier, monospace, cursive;}
+.tarjetapostal h1{margin:0;}
+.left-part{float; left; ; width: 50%;}
+.right-part{float; right;width: 50%;}
+.right-part input{font-display: block;}
+h1{font-size: 35px;}
+.tarjetapostal-footer{padding: 10px; text-align: center;}
+.tarjetapostal-footer input[type=submit]{border: none; border-bottom: 1px solid gray;}
+.tarjetapostal-body input[type=text]{border: none; border-bottom: 1px solid gray; width: 280px; margin-bottom:10px; padding: 5px;}
